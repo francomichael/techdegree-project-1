@@ -8,24 +8,24 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: #f7f5f0;
+  color: rgb(252, 190, 133);
+  background: #1f4975;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #f2644e;
 }
 a:hover {
-  color: #6633ff;
+  color: #1f4975;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #1f4975;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: #f2644e;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -52,12 +52,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #f2ec02
 }
 
 header {
   text-align: center;
-  background: url('images/rsz_ryan-carpenter-pdba4algwvc-unsplash.jpg') no-repeat top center ;
+  background: url('images/cpt_tblMountain.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -77,29 +77,30 @@ header .profile-image:hover {
   transform: scale(1.3) rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: #1f4975;
+  color: #FF7F50;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #f2644e;
+  color: #1f4975;
+  font-weight: 900;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
+  background: #0e2e51;
+  border-bottom: 4px solid #3f63a9;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #f2644e;
 }
 
 ul.skills {
@@ -110,14 +111,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #1f4975;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #f2644e;
 }
 
 footer {
